@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 67
-    length: 7
+    length: 17
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 67
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       println("Hello,")
         println("Kotlin!")
@@ -31,5 +31,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Programming+Basics+%2F+Hello%2C+World%21+%2F+Exercise2
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 11 Jan 2021 12:35:25 UTC
 record: -1

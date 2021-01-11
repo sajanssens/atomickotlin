@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 67
-    length: 38
+    length: 41
     placeholder_text: |-
       println("Hello,")
         println("Kotlin!")
@@ -13,7 +13,7 @@ files:
       offset: 67
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       //println("Hello,")
         println("Kotlin!")
@@ -31,5 +31,8 @@ files:
   text: |
     Kotlin!
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 11 Jan 2021 12:36:12 UTC
 record: -1

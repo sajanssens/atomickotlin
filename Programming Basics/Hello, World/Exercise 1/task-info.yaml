@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 52
-    length: 8
+    length: 45
     placeholder_text: // TODO
     initial_state:
       length: 7
@@ -46,5 +46,5 @@ feedback_link: |
 status: Solved
 feedback:
   message: Congratulations!
-  time: Mon, 11 Jan 2021 12:19:28 UTC
+  time: Mon, 11 Jan 2021 12:33:28 UTC
 record: -1

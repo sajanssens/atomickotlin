@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 81
-    length: 6
+    length: 197
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 81
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       var index = 0
         var result = ""
@@ -68,5 +68,8 @@ files:
       fun test4() = testString(('A'..'Z').joinToString(""))
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 11 Jan 2021 12:52:09 UTC
 record: -1
