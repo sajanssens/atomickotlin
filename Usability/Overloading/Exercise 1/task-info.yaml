@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 54
-    length: 22
+    length: 201
     placeholder_text: // Implement class Dog
     initial_state:
       length: 22
       offset: 54
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Dog {
         fun bark(n: Int) {
@@ -133,5 +133,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 11 Jan 2021 15:01:50 UTC
 record: -1

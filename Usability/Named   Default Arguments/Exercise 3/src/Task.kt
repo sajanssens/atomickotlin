@@ -1,15 +1,23 @@
 // NamedAndDefaultArgs/Task3.kt
 package namedAndDefaultArgumentsExercise3
+
 import atomictest.eq
 
 fun joinComments(s: String): String =
-  TODO()
+// s.lines()
+//         .map { it.trim() }
+//         .filter { it.isNotEmpty() }
+//         .map { it.replace("//", "") }
+//         .map { it.trim() }
+        //         .joinToString("; ")
+
+        s.trimMargin("// ").lines().joinToString("; ")
 
 fun main() {
-  val s = """
+    val s = """
         // First
         // Second
         // Third
         """
-  joinComments(s) eq "First; Second; Third"
+    joinComments(s) eq "First; Second; Third"
 }
