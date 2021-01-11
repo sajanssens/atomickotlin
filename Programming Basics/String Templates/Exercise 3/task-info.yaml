@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 62
-    length: 13
+    length: 143
     placeholder_text: fun show() {}
     initial_state:
       length: 13
       offset: 62
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun show(i: Int, s: String, c: Char, d: Double) {
         println("i: $i")
@@ -77,5 +77,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 11 Jan 2021 13:38:46 UTC
 record: -1

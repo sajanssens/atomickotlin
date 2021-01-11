@@ -2,8 +2,8 @@
 package ifExpressionsExercise2
 
 fun abs(number: Int): Int =
-  TODO()
+        if (number < 0) -number else number
 
 fun main() {
-  println(abs(-19))  // 19
+    println(abs(-19))  // 19
 }

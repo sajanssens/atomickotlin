@@ -3,65 +3,65 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 130
-    length: 1
+  - offset: 154
+    length: 15
     placeholder_text: 0
     initial_state:
       length: 1
       offset: 130
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 1_000_000_000
-  - offset: 158
-    length: 6
+  - offset: 195
+    length: 5
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 158
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '"Int"'
-  - offset: 181
-    length: 1
+  - offset: 217
+    length: 15
     placeholder_text: 0
     initial_state:
       length: 1
       offset: 181
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 1_000_000_000_000
-  - offset: 210
+  - offset: 260
     length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 210
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '"Long"'
-  - offset: 236
-    length: 1
+  - offset: 286
+    length: 21
     placeholder_text: 0
     initial_state:
       length: 1
       offset: 236
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 1_000_000_000_000_000_000
-  - offset: 268
-    length: 6
+  - offset: 338
+    length: 218
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 268
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '"Long"'
   text: |-
     // NumberTypes/Task2.kt
@@ -135,5 +135,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Programming+Basics+%2F+Number+Types+%2F+Exercise2
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 11 Jan 2021 13:54:16 UTC
 record: -1

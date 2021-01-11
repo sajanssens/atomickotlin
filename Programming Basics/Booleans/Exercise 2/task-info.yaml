@@ -4,40 +4,40 @@ files:
   visible: true
   placeholders:
   - offset: 48
-    length: 16
+    length: 97
     placeholder_text: fun showAnd() {}
     initial_state:
       length: 16
       offset: 48
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun showAnd(first: Boolean, second: Boolean) {
         println("$first && $second == ${first && second}")
       }
-  - offset: 66
-    length: 15
+  - offset: 147
+    length: 96
     placeholder_text: fun showOr() {}
     initial_state:
       length: 15
       offset: 66
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       fun showOr(first: Boolean, second: Boolean) {
         println("$first || $second == ${first || second}")
       }
-  - offset: 108
-    length: 6
+  - offset: 317
+    length: 45
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 108
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       showAnd(true, true)
         showAnd(true, false)
@@ -136,5 +136,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 11 Jan 2021 14:05:33 UTC
 record: -1
