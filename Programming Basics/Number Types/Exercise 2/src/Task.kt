@@ -12,7 +12,7 @@ val billionType: String = "Int"
 val trillion = billion * 1000L
 val trillionType: String = "Long"
 
-val quintillion = trillion * 1_000_000L
+val quintillion = trillion * 1000_000L
 val quintillionType: String = "Long"
 
 fun main() {

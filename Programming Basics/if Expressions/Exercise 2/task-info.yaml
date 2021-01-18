@@ -11,7 +11,7 @@ files:
       offset: 88
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: if (number > 0) number else -number
   text: |-
     // IfExpressions/Task2.kt

@@ -11,7 +11,7 @@ files:
       offset: 130
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: 1_000_000_000
   - offset: 195
     length: 5
@@ -21,7 +21,7 @@ files:
       offset: 158
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: '"Int"'
   - offset: 217
     length: 15
@@ -31,7 +31,7 @@ files:
       offset: 181
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: 1_000_000_000_000
   - offset: 260
     length: 6
@@ -41,19 +41,19 @@ files:
       offset: 210
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: '"Long"'
   - offset: 286
-    length: 21
+    length: 20
     placeholder_text: 0
     initial_state:
       length: 1
       offset: 236
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: 1_000_000_000_000_000_000
-  - offset: 338
+  - offset: 337
     length: 218
     placeholder_text: TODO()
     initial_state:
@@ -61,7 +61,7 @@ files:
       offset: 268
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: '"Long"'
   text: |-
     // NumberTypes/Task2.kt

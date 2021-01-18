@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 54
-    length: 201
+    length: 163
     placeholder_text: // Implement class Dog
     initial_state:
       length: 22
       offset: 54
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       class Dog {
         fun bark(n: Int) {

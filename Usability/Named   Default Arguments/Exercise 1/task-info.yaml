@@ -11,7 +11,7 @@ files:
       offset: 75
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       class Rectangle(
         val side1: Double = 1.0,
@@ -30,7 +30,7 @@ files:
       offset: 131
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       // Without argument names
         println(Rectangle(1.1))

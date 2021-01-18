@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 135
-    length: 248
+  - offset: 137
+    length: 211
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 136
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: s.trimMargin("// ").lines().joinToString("; ")
   text: |-
     // NamedAndDefaultArgs/Task3.kt

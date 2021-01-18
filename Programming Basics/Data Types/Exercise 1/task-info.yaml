@@ -11,7 +11,7 @@ files:
       offset: 65
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       var answer = 42
         // Type mismatch error:

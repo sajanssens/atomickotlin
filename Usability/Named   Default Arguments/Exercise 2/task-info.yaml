@@ -11,7 +11,7 @@ files:
       offset: 112
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       (
         val hours: Int = 0,
@@ -27,7 +27,7 @@ files:
       offset: 150
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: ((hours * 60 + minutes) * 60) + seconds
   - offset: 376
     length: 54
@@ -37,7 +37,7 @@ files:
       offset: 190
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: (toSecondOfDay() * 1000000000L) + nanoseconds
   text: |
     // NamedAndDefaultArgs/Task2.kt

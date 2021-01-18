@@ -114,6 +114,6 @@ files:
       HasObject.Nested.a eq "HasObject.Nested.a"
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

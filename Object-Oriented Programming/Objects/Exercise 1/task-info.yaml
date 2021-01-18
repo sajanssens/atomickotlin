@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 70
-    length: 7
+  - offset: 75
+    length: 416
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 70
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       private fun f() = trace("f() $p")
       private val p = "p"
@@ -57,5 +57,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 18 Jan 2021 16:09:06 UTC
 record: -1

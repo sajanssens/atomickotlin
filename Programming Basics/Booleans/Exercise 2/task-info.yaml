@@ -11,7 +11,7 @@ files:
       offset: 48
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       fun showAnd(first: Boolean, second: Boolean) {
         println("$first && $second == ${first && second}")
@@ -24,7 +24,7 @@ files:
       offset: 66
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       fun showOr(first: Boolean, second: Boolean) {
         println("$first || $second == ${first || second}")
@@ -37,7 +37,7 @@ files:
       offset: 108
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       showAnd(true, true)
         showAnd(true, false)

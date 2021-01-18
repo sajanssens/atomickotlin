@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 81
-    length: 197
+    length: 140
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 81
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       var index = 0
         var result = ""

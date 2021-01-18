@@ -11,7 +11,7 @@ files:
       offset: 100
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: "false"
   - offset: 142
     length: 4
@@ -21,7 +21,7 @@ files:
       offset: 143
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: "true"
   - offset: 212
     length: 5
@@ -31,7 +31,7 @@ files:
       offset: 215
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: "true"
   text: |-
     // Booleans/Task1.kt

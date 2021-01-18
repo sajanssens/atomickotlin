@@ -11,7 +11,7 @@ files:
       offset: 72
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: 3
   - offset: 98
     length: 6
@@ -21,7 +21,7 @@ files:
       offset: 93
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: 2
   - offset: 127
     length: 9
@@ -31,7 +31,7 @@ files:
       offset: 117
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: 11
   - offset: 157
     length: 84
@@ -41,7 +41,7 @@ files:
       offset: 139
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: 1.2
   text: |-
     // NumberTypes/Task1.kt

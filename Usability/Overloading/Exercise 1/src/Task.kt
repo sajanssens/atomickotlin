@@ -6,8 +6,7 @@ class Dog() {
     fun bark(n: Int) = bark(n, "woof")
 
     fun bark(n: Int, say: String) {
-        // for (i in 0 until n) println(say)
-        repeat(n) { println(say) }
+        for (i in 0 until n) println(say)
     }
 
 }
