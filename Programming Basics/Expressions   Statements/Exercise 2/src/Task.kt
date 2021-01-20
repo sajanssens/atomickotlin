@@ -8,4 +8,5 @@ fun g() = ""
 fun h() = '?'
 
 fun main() {
-  TODO()}
+    TODO()
+}

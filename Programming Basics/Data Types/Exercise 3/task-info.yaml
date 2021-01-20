@@ -30,7 +30,7 @@ files:
       length: 3
       offset: 121
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: '''C'''
   text: |-

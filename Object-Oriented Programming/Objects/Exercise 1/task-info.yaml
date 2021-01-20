@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 75
-    length: 416
+  - offset: 50
+    length: 124
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 70
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       private fun f() = trace("f() $p")
       private val p = "p"

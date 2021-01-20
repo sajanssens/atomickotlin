@@ -2,14 +2,21 @@
 package summaryIExercise7
 
 fun countDigits(number: Int, digit: Int): Int {
-  var worker = number
-  var occurrences = 0
-  while (worker > 0) {
-    TODO()
-  }
-  return occurrences
+    var worker = number
+    var occurrences = 0
+    while (worker > 0) {
+        if (worker % 10 == digit) occurrences++
+        worker /= 10
+    }
+
+    occurrences = number.toString().split("").reversed()
+        .filter { it == digit.toString() }
+        .count()
+
+
+    return occurrences
 }
 
 fun main() {
-  println(countDigits(764241, 4)) // 2
+    println(countDigits(764241, 4)) // 2
 }

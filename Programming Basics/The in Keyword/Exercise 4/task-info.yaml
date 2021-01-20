@@ -10,20 +10,20 @@ files:
       length: 19
       offset: 53
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       fun isValidCharacter(ch: Char): Boolean = ch == '_' ||
         ch in 'a'..'z' || ch in 'A'..'Z' ||
         ch in '0'..'9'
-  - offset: 120
-    length: 6
+  - offset: 110
+    length: 37
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 120
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       if (s.isEmpty() || s[0] in '0'..'9') return false

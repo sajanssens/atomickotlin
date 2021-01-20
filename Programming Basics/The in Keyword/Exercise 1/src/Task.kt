@@ -2,9 +2,13 @@
 package theInKeywordExercise1
 
 fun getAlphabet(): String {
-  TODO()
+    val sb = StringBuilder()
+    for (c in 'a'..'z') {
+        sb.append(c)
+    }
+    return sb.toString()
 }
 
 fun main() {
-  println(getAlphabet())  // abcdefghijklmnopqrstuvwxyz
+    println(getAlphabet())  // abcdefghijklmnopqrstuvwxyz
 }

@@ -10,7 +10,7 @@ files:
       length: 6
       offset: 224
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       people.sortedByDescending { it.age }

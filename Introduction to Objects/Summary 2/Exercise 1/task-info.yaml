@@ -3,14 +3,14 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 70
-    length: 19
+  - offset: 71
+    length: 95
     placeholder_text: // add Boring class
     initial_state:
       length: 19
       offset: 70
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       class Boring {
@@ -18,14 +18,14 @@ files:
         fun b() = "ratio"
         fun c() = 11
       }
-  - offset: 106
-    length: 14
+  - offset: 183
+    length: 113
     placeholder_text: // test Boring
     initial_state:
       length: 14
       offset: 106
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       val boring = Boring()
@@ -86,5 +86,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 19 Jan 2021 13:28:53 UTC
 record: -1

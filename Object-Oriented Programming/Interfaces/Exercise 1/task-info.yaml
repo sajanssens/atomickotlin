@@ -3,14 +3,14 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 126
-    length: 11
+  - offset: 142
+    length: 335
     placeholder_text: class Cloud
     initial_state:
       length: 11
       offset: 126
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       class Cloud(n: Int): Computer {
@@ -23,14 +23,14 @@ files:
       data class Node(val result: Int): Computer {
         override fun calculateAnswer() = result
       }
-  - offset: 154
-    length: 36
+  - offset: 494
+    length: 35
     placeholder_text: // Cloud(10).calculateAnswer() eq 45
     initial_state:
       length: 36
       offset: 154
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: Cloud(10).calculateAnswer() eq 45
   text: |-
@@ -111,5 +111,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 19 Jan 2021 09:50:41 UTC
 record: -1

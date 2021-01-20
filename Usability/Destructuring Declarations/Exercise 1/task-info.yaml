@@ -3,30 +3,30 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 128
-    length: 36
+  - offset: 125
+    length: 27
     placeholder_text: Any /* replace with required type */
     initial_state:
       length: 36
       offset: 128
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: Triple<Boolean, Int, Int>
-  - offset: 169
-    length: 6
+  - offset: 153
+    length: 92
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 169
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       return if (n1 < 0 || n2 < 0) Triple(false, 0, 0)
         else Triple(true, n1 + n2, n1 * n2)
-  - offset: 192
-    length: 231
+  - offset: 332
+    length: 222
     placeholder_text: |-
       /*
           val result = calculate(5, 7)
@@ -43,8 +43,8 @@ files:
       length: 231
       offset: 192
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val result = calculate(5, 7)
         result.first eq true
@@ -161,5 +161,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 19 Jan 2021 15:11:03 UTC
 record: -1

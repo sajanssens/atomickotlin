@@ -28,7 +28,7 @@ files:
       length: 359
       offset: 147
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       var fahrenheit: Double
@@ -64,7 +64,7 @@ files:
       length: 140
       offset: 552
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       temp.fahrenheit = 98.6
