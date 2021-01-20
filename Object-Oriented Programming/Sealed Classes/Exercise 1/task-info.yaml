@@ -10,8 +10,8 @@ files:
       length: 7
       offset: 82
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: |-
       sealed class Transport {
         abstract val capacity: Int
@@ -146,5 +146,9 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Can&#39;t find the the &#39;Train&#39; class in &#39;sealedClassesExercise1&#39;
+    package
+  time: Wed, 20 Jan 2021 10:04:10 UTC
 record: -1

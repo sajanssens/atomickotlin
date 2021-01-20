@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 95
-    length: 19
+  - offset: 96
+    length: 92
     placeholder_text: // TODO class Alien
     initial_state:
       length: 19
       offset: 95
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Alien(name: String) {
         val myName: String
@@ -19,8 +19,8 @@ files:
           myName = name
         }
       }
-  - offset: 129
-    length: 74
+  - offset: 203
+    length: 77
     placeholder_text: |-
       /*
         val alien = Alien("Pencilvester")
@@ -30,8 +30,8 @@ files:
       length: 74
       offset: 129
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
         val alien = Alien("Pencilvester")
         alien.myName eq "Pencilvester"
@@ -89,5 +89,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 20 Jan 2021 09:58:03 UTC
 record: -1

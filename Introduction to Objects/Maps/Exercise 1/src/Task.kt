@@ -15,6 +15,9 @@ fun buildNumberToContactMap(contactList: List<Contact>): Map<String, Contact> {
         map[contact.number] = contact
     }
     return map
+
+    // or :-)
+    // return contactList.associateBy { it.number }
 }
 
 fun main() {

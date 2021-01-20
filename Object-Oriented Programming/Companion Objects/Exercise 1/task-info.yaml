@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 192
-    length: 7
+  - offset: 203
+    length: 619
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 192
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       class Vendor1 private constructor() : Vendor {
         override fun pencil() {
@@ -46,8 +46,8 @@ files:
         vendor.pencil()
         vendor.pen()
       }
-  - offset: 216
-    length: 184
+  - offset: 824
+    length: 112
     placeholder_text: |-
       /*
       // Implementations are interchangeable:
@@ -64,8 +64,8 @@ files:
       length: 184
       offset: 216
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       // Implementations are interchangeable:
         consumer(Vendor1.factory)
@@ -120,5 +120,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 20 Jan 2021 12:52:31 UTC
 record: -1
