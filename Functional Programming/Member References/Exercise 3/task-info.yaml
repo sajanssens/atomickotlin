@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 269
-    length: 6
+  - offset: 272
+    length: 8
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -13,8 +13,8 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: return (2 until num).filter { num % it == 0 }
-  - offset: 310
-    length: 6
+  - offset: 315
+    length: 8
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -23,8 +23,8 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: return this != 1 && getNonTrivialDivisors(this).isEmpty()
-  - offset: 357
-    length: 6
+  - offset: 364
+    length: 8
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -34,17 +34,17 @@ files:
     status: Unchecked
     encrypted_possible_answer: return num != 1 && 1 + getNonTrivialDivisors(num).sum()
       == num
-  - offset: 428
-    length: 6
+  - offset: 440
+    length: 13
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 428
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: Int::isEven
-  - offset: 483
+  - offset: 505
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -54,7 +54,7 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: Int::isPrime
-  - offset: 640
+  - offset: 676
     length: 6
     placeholder_text: TODO()
     initial_state:

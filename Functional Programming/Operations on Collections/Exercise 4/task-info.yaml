@@ -3,85 +3,85 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 173
-    length: 6
+  - offset: 174
+    length: 1
     placeholder_text: ' /*?*/'
     initial_state:
       length: 6
       offset: 173
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: ' '
-  - offset: 186
-    length: 6
+  - offset: 182
+    length: 7
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 186
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: it == 0
-  - offset: 224
-    length: 6
+  - offset: 221
+    length: 2
     placeholder_text: ' /*?*/'
     initial_state:
       length: 6
       offset: 224
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: ' !'
-  - offset: 236
-    length: 6
+  - offset: 229
+    length: 7
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 236
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: it == 0
-  - offset: 315
-    length: 6
+  - offset: 309
+    length: 2
     placeholder_text: ' /*?*/'
     initial_state:
       length: 6
       offset: 315
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: ' !'
-  - offset: 328
-    length: 6
+  - offset: 318
+    length: 7
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 328
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: it == 0
-  - offset: 363
-    length: 6
+  - offset: 354
+    length: 0
     placeholder_text: ' /*?*/'
     initial_state:
       length: 6
       offset: 363
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: ' '
-  - offset: 375
-    length: 6
+  - offset: 360
+    length: 8
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 375
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: it == 0
   text: |-
     // OperationsOnCollections/Task4.kt
@@ -156,5 +156,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Functional+Programming+%2F+Operations+on+Collections+%2F+Exercise4
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 20 Jan 2021 13:38:19 UTC
 record: -1

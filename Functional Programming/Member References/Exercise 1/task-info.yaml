@@ -3,45 +3,45 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 380
-    length: 6
+  - offset: 392
+    length: 25
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 380
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: filter(LAND::livesIn)
-  - offset: 431
-    length: 6
+  - offset: 462
+    length: 30
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 431
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: filter(WATER::livesIn)
-  - offset: 484
-    length: 6
+  - offset: 539
+    length: 35
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 484
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: filter(AMPHIBIOUS::livesIn)
-  - offset: 555
-    length: 6
+  - offset: 639
+    length: 38
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 555
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: partition(AMPHIBIOUS::livesIn)
   text: |-
     // MemberReferences/MemberReferencesEx1.kt
@@ -185,5 +185,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 20 Jan 2021 13:45:28 UTC
 record: -1

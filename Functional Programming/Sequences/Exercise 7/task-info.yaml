@@ -4,26 +4,26 @@ files:
   visible: true
   placeholders:
   - offset: 87
-    length: 6
+    length: 74
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 87
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       return generateSequence(1) { it + 2 }
           .filter { '1' !in it.toString() }
-  - offset: 112
-    length: 6
+  - offset: 178
+    length: 39
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 112
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: println(oddWithout1().take(20).sum())
   text: |-
     // Sequences/Task7.kt
@@ -97,5 +97,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 20 Jan 2021 14:23:55 UTC
 record: -1

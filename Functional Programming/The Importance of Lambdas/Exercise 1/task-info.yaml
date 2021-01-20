@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 194
-    length: 6
+  - offset: 195
+    length: 45
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 194
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: filter { it.age > 17 }.map { it.name }
   text: |-
     // ImportanceOfLambdas/Task1.kt
@@ -56,5 +56,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Functional+Programming+%2F+The+Importance+of+Lambdas+%2F+Exercise1
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 20 Jan 2021 13:25:59 UTC
 record: -1

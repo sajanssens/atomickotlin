@@ -3,14 +3,14 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 154
-    length: 6
+  - offset: 153
+    length: 7
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 154
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       current ->
