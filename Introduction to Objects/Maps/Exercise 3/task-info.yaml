@@ -3,38 +3,38 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 261
-    length: 20
+  - offset: 272
+    length: 27
     placeholder_text: MutableList<Hamster>
     initial_state:
       length: 20
       offset: 261
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: MutableMap<String, Hamster>
-  - offset: 288
-    length: 24
+  - offset: 306
+    length: 18
     placeholder_text: mutableListOf<Hamster>()
     initial_state:
       length: 24
       offset: 288
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: mutableMapOf()
-  - offset: 420
-    length: 19
+  - offset: 448
+    length: 38
     placeholder_text: hamsters += hamster
     initial_state:
       length: 19
       offset: 420
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: hamsters[hamster.name] = hamster
-  - offset: 491
-    length: 168
+  - offset: 550
+    length: 278
     placeholder_text: |-
       {
           for (hamster in hamsters) {
@@ -48,8 +48,8 @@ files:
       length: 168
       offset: 491
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       =
           hamsters.getValue(name)
@@ -136,5 +136,8 @@ files:
   learner_created: false
 feedback_link: |
   https://docs.google.com/forms/d/e/1FAIpQLSdkaliSwYkjiV21bZl0yP-In2g5p17sAQCfaGjyHx_QYMWTiQ/viewform?usp=pp_url&entry.189755027=Introduction+to+Objects+%2F+Maps+%2F+Exercise3
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 25 Jan 2021 09:02:13 UTC
 record: -1
