@@ -1,12 +1,11 @@
 // SafeCallsAndElvis/Task1.kt
 package safeCallsAndTheElvisOperatorExercise1
+
 import atomictest.eq
 
-fun downcase() {}
+fun downcase(s: String?) = s?.toLowerCase() ?: ""
 
 fun main() {
-/*
-  downcase(null) eq ""
-  downcase("ABC") eq "abc"
-*/
+      downcase(null) eq ""
+      downcase("ABC") eq "abc"
 }

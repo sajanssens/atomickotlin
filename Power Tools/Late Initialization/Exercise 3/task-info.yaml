@@ -3,15 +3,15 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 231
-    length: 23
+  - offset: 240
+    length: 145
     placeholder_text: ' = Generator(0) // TODO'
     initial_state:
       length: 23
       offset: 231
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |2-
 
           get() {
@@ -19,47 +19,47 @@ files:
               _generator = Generator(id)
             return _generator
           }
-  - offset: 319
-    length: 6
+  - offset: 457
+    length: 43
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 319
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '"${::_generator.isInitialized}"'
-  - offset: 412
-    length: 6
+  - offset: 589
+    length: 35
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 412
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: List(nTurbines) { Turbine(it) }
-  - offset: 465
-    length: 6
+  - offset: 674
+    length: 37
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 465
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       require(number in 0..turbines.size)
           return turbines[number].generator
-  - offset: 493
-    length: 6
+  - offset: 738
+    length: 70
     placeholder_text: '"TODO"'
     initial_state:
       length: 6
       offset: 493
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       turbines.forEach {
           trace(it.toString())
@@ -122,5 +122,8 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Mon, 25 Jan 2021 11:10:51 UTC
 record: -1
