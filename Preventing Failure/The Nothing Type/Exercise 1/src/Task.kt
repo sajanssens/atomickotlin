@@ -1,31 +1,38 @@
 // NothingType/NothingTypeSoln1.kt
 package theNothingTypeExercise1
-import atomictest.*
 
-class Failure
+import atomictest.capture
+import atomictest.trace
+
+class Failure(message: String) : Exception(message)
 
 fun fail(msg: String): Nothing {
-  TODO()
+    trace(msg)
+    throw Failure(msg)
 }
 
 fun require(test: Boolean) {
-  TODO()
+    if (!test) fail("require() failed")
 }
 
 fun check(test: Boolean) {
-  TODO()
+    if (!test) fail("check() failed")
 }
 
 fun main() {
-  require(true)
-  check(true)
-  capture {
-    require(false)
-  } eq "Failure: require() failed"
-  capture {
-    check(false)
-  } eq "Failure: check() failed"
-  trace eq """
+    val i = 9
+
+    require(i == 9)
+    check(i == 9)
+
+    capture {
+        require(i < 9)
+    } eq "Failure: require() failed"
+    capture {
+        check(i > 10)
+    } eq "Failure: check() failed"
+
+    trace eq """
     require() failed
     check() failed
   """
